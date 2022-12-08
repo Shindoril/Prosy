@@ -1,0 +1,44 @@
+Index: app/src/main/java/com/example/prosy/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/prosy/MainActivity.java b/app/src/main/java/com/example/prosy/MainActivity.java
+--- a/app/src/main/java/com/example/prosy/MainActivity.java	
++++ b/app/src/main/java/com/example/prosy/MainActivity.java	(date 1665495227208)
+@@ -33,7 +33,7 @@
+             @Override
+             public void onClick(View view) {
+ 
+-                Intent intent = new Intent(packageContext: MainActivity.this, ActivityOne.class);
++                Intent intent = new Intent(MainActivity.this, ActivityOne.class);
+                 startActivity(intent);
+ 
+             }
+@@ -43,7 +43,7 @@
+             @Override
+             public void onClick(View view) {
+ 
+-                Intent intent = new Intent(packageContext: MainActivity.this, ActivityTwo.class);
++                Intent intent = new Intent(MainActivity.this, ActivityTwo.class);
+                 startActivity(intent);
+ 
+             }
+@@ -53,7 +53,7 @@
+             @Override
+             public void onClick(View view) {
+ 
+-                Intent intent = new Intent(packageContext: MainActivity.this, ActivityThree.class);
++                Intent intent = new Intent(MainActivity.this, ActivityThree.class);
+                 startActivity(intent);
+ 
+             }
+@@ -63,7 +63,7 @@
+             @Override
+             public void onClick(View view) {
+ 
+-                Intent intent = new Intent(packageContext: MainActivity.this, ActivityFour.class);
++                Intent intent = new Intent(MainActivity.this, ActivityFour.class);
+                 startActivity(intent);
+ 
+             }

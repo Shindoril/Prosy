@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "192456678109",
+    "firebase_url": "https://prosytol-default-rtdb.firebaseio.com",
+    "project_id": "prosytol",
+    "storage_bucket": "prosytol.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192456678109:android:39eedcd1c8225006419934",
+        "android_client_info": {
+          "package_name": "com.example.prosy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192456678109-o8rhuejtkummbb2l6bks95r51qu3vosr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQMSIBI3dfQlCo7QPKleA7a1yFZZbivzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192456678109-o8rhuejtkummbb2l6bks95r51qu3vosr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

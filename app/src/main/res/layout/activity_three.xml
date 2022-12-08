@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityThree">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="889dp"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".ActivityThree">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="379dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="16dp"
+                android:text="Руководитель рекламного отдела, специалист по связям с общественностью, корпоративный тренер/тренер, менеджер по продажам, специалист по трудоустройству/HR"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="754dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="ENFJ - Протагонист"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="722dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Графический дизайнер, психолог/терапевт, писатель/редактор, физический терапевт, тренер по развитию персонала"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="644dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Терапевт/консультант, социальный работник, менеджер по разнообразию в сфере HR, консультант по организационному развитию, менеджер по работе с клиентами"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="512dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="INFJ - Адвокат"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="481dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="385dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="12dp"
+                android:text="Предприниматель, застройщик недвижимости, креативный директор по рекламе, директор по маркетингу, политик/политический консультант"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="389dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Руководитель, юрист, аналитик маркетинговых исследований, консультант по управлению, венчурный капиталист"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="273dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="371dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="16dp"
+                android:text="Компьютерный программист/конструктор программного обеспечения, финансовый аналитик, архитектор, профессор колледжа, экономист"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="167dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="INTJ - Архитектор "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.054"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="374dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="16dp"
+                android:text="Инвестиционный банкир, личный финансовый консультант, разработчик программного обеспечения, экономист, руководитель"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="46dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="INTP - Логик"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="137dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="ENTJ - Командир"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="ENTP - Дебатер"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="356dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="INFP - Посредник"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="615dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="TextView"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="823dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ActivityThree">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="379dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="16dp"
+            android:text="Руководитель рекламного отдела, специалист по связям с общественностью, корпоративный тренер/тренер, менеджер по продажам, специалист по трудоустройству/HR"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="754dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="ENFJ - Протагонист"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="722dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Графический дизайнер, психолог/терапевт, писатель/редактор, физический терапевт, тренер по развитию персонала"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="644dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Терапевт/консультант, социальный работник, менеджер по разнообразию в сфере HR, консультант по организационному развитию, менеджер по работе с клиентами"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="512dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="INFJ - Адвокат"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="481dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="385dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="12dp"
+            android:text="Предприниматель, застройщик недвижимости, креативный директор по рекламе, директор по маркетингу, политик/политический консультант"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="389dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Руководитель, юрист, аналитик маркетинговых исследований, консультант по управлению, венчурный капиталист"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="273dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="371dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="16dp"
+            android:text="Компьютерный программист/конструктор программного обеспечения, финансовый аналитик, архитектор, профессор колледжа, экономист"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="167dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="INTJ - Архитектор "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.054"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="374dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="16dp"
+            android:text="Инвестиционный банкир, личный финансовый консультант, разработчик программного обеспечения, экономист, руководитель"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="46dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="INTP - Логик"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="ENTJ - Командир"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="241dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="ENTP - Дебатер"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="356dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="INFP - Посредник"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="615dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="823dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="379dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:text="Руководитель рекламного отдела, специалист по связям с общественностью, корпоративный тренер/тренер, менеджер по продажам, специалист по трудоустройству/HR"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="754dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="ENFJ - Протагонист"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="722dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Графический дизайнер, психолог/терапевт, писатель/редактор, физический терапевт, тренер по развитию персонала"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="644dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Терапевт/консультант, социальный работник, менеджер по разнообразию в сфере HR, консультант по организационному развитию, менеджер по работе с клиентами"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="512dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="INFJ - Адвокат"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="385dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="12dp"
+        android:text="Предприниматель, застройщик недвижимости, креативный директор по рекламе, директор по маркетингу, политик/политический консультант"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Руководитель, юрист, аналитик маркетинговых исследований, консультант по управлению, венчурный капиталист"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="371dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:text="Компьютерный программист/конструктор программного обеспечения, финансовый аналитик, архитектор, профессор колледжа, экономист"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="INTJ - Архитектор "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="374dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:text="Инвестиционный банкир, личный финансовый консультант, разработчик программного обеспечения, экономист, руководитель"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="INTP - Логик"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="ENTJ - Командир"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="ENTP - Дебатер"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="INFP - Посредник"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="615dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="823dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
